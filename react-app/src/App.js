@@ -57,22 +57,22 @@ function App() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="age">Age:</label>
+            <label htmlFor="age">email:</label>
             <input
-              type="number"
+              type="text"
               className="form-control"
-              placeholder="Enter age"
+              placeholder="Enter email"
               onChange={(event) => {
                 setEmail(event.target.value)
               }}
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="country">Country:</label>
+            <label htmlFor="country">password:</label>
             <input
               type="text"
               className="form-control"
-              placeholder="Enter country"
+              placeholder="Enter password"
               onChange={(event) => {
                 setPass(event.target.value)
               }}
